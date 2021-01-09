@@ -58,7 +58,7 @@ function displayJsonData(data){
 
     for(i=0;i<data.length;i++){
         let card=createElement('div');
-        setAttribute(card,'class','card-body col-3')
+        setAttribute(card,'class','card-body col-md-3 col-lg-3 col-sm-4')
         childAppend(row,card);
 
     let countryName=createElement('h6')
